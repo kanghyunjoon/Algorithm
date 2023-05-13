@@ -3,10 +3,10 @@ import java.util.Arrays;
 public class InsertionSort {
     
     public static void main(String[] args) {
-        int[] arr = {5, 10, 3, 8, 6, 1, 9, 4, 20, 15, 11, 7, 16, 14, 18, 2, 13, 12, 19, 17};
-        System.out.println("Original Array: " + Arrays.toString(arr));
+        int[] arr = {13, 5, 1, 19, 17, 10, 6, 14, 8, 12, 16, 11, 4, 2, 15, 7, 3, 20, 18, 9};
+        System.out.println("정렬 전 배열: " + Arrays.toString(arr));
         insertionSort(arr);
-        System.out.println("Sorted Array: " + Arrays.toString(arr));
+        System.out.println("정렬 후 배열: " + Arrays.toString(arr));
     }
     
     public static void insertionSort(int[] arr) {
